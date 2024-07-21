@@ -91,7 +91,7 @@ const emit = defineEmits(['saveChanges', 'deleteTask', 'moveTask'])
     @mouseleave="showEdit = false"
   >
     <div
-      class="overflow-hidden rounded-md border-2 border-white/40 p-2 hover:cursor-pointer hover:border-white/70"
+      class="w-96 overflow-hidden rounded-md border-2 border-white/40 p-2 hover:cursor-pointer hover:border-white/70"
     >
       <div class="flex flex-col gap-2">
         <div class="flex items-center justify-between">

@@ -49,7 +49,7 @@ onBeforeMount(() => {
     v-if="table != undefined"
     class="flex h-full flex-col items-start justify-start overflow-hidden"
   >
-    <div class="flex flex-col items-center px-4 pb-4 pt-2">
+    <div class="flex flex-col items-start px-4 pb-4 pt-2">
       <BackButton />
       <h1 class="self-start overflow-hidden text-3xl font-bold text-white hover:overflow-x-auto">
         {{ table.name }}

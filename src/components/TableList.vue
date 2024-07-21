@@ -97,7 +97,7 @@ defineEmits(['deleteList'])
       @mouseleave="showDeleteButton = false"
     >
       <div class="flex w-full justify-between p-2">
-        <h3 class="break-all text-xl font-bold">{{ list.name }}</h3>
+        <h3 class="w-96 break-all text-xl font-bold">{{ list.name }}</h3>
         <ConfirmDeleteModal
           :visible="showDeleteButton"
           :name="`list ${list.name}`"
