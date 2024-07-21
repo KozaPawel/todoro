@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type='radio']:checked + label {
+  outline: 2px solid #22c55e;
+}
+
+[type='radio']:hover + label {
+  outline: 2px solid #15803d;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
